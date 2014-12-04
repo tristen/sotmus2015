@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>New York City | State of the Map US 2015</title>
+  <meta name='robots' content='index'/>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <meta name='twitter:site' content='@sotmus' />
+  <meta property='og:site_name' content='State of the Map US' />
+  <meta name='twitter:url' content='' />
+  <meta name='twitter:domain' content='http://stateofthemap.us' />
+  <meta property='og:url' content='' />
+  <meta name='twitter:title' content='Washington, DC' />
+  <meta property='og:title' content='Washington, DC' />
+  <meta name='twitter:description' content='The annual United States conference for all OpenStreetMap users. Whether you&#39;re a map enthusiast, using OpenStreetMap in your business or organization,...' />
+  <meta property='og:description' content='The annual United States conference for all OpenStreetMap users. Whether you&#39;re a map enthusiast, using OpenStreetMap in your business or organization,...' />
+  <link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon' />
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.css' rel='stylesheet' />
+  <link href='base.css' rel='stylesheet' />
+  <link href='site.css' rel='stylesheet' />
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.js'></script>
+  <script src='js/jquery.min.js'></script>
+  <script src='js/slick.min.js'></script>
+</head>
+<body>
+
+<div id='map' class='fixed pin-top pin-bottom col12 map'></div>
+<nav id='menu' class='menu'>
+  <figure class='limiter clearfix'>
+
+    <div class='col12 clearfix'>
+      <figure class='col4'>
+        <div class='fill-purple4 pad2 dark block block-logo'>
+          <div class='pad2 bg bg-mapgrid'>
+            <h3 class='block center'>
+              <span class='color-purple1'>NYC</span>
+              <span class='label strong'>State of the Map US</span>
+              <span class='color-purple1'>2015</span>
+            </h3>
+          </div>
+        </div>
+      </figure>
+      <figure class='col8 contain container-date'>
+        <div class='fill-orange1 pad2y pin-bottomleft block block-date'>
+          <div class='fastener fastener-right fill-orange3'></div>
+          <div class='fastener fastener-left fill-orange3'></div>
+          <h3 class='dark center pad1y'>
+            <span class='label big-label'>June</span>
+            <span>6 &ndash; 8</span>
+          </h3>
+        </div>
+
+        <div class='pin-bottomright hide-mobile'>
+          <div id='tooltip' class='tooltip pad2 dark'></div>
+        </div>
+
+      </figure>
+    </div>
+
+    <figure class='col6'>
+      <div class='bg block block-intro fill-purple1 dark pad2'>
+        <p>The annual United States conference for all OpenStreetMap users.</p>
+      </div>
+
+      <div class='bg bg-location fill-green2 color-green4 pad2 col12 block'>
+        <label class='strong'>location</label>
+        <p>United Nations Headquarters</p>
+        <small>New York, NY 10017</small>
+      </div>
+
+      <div class='fill-orange2 color-orange4 pad2 block'>
+        <label class='strong'>Get updates</label>
+        <div class='space-bottom2'>
+          <p class='dark'>Keep up with news and event information by subscribing</p>
+        </div>
+        <form action='http://stateofthemap.us3.list-manage.com/subscribe/post?u=162692bfdedb78ec46fd108a3&amp;id=c4981adbd0' method='post' id='mc-embedded-subscribe-form' name='mc-embedded-subscribe-form' class='validate col12 clearfix' target='_blank' novalidate>
+          <fieldset class='mc-field-group col8'>
+            <input type='text' value='' name='EMAIL' class='required email col12 round-left big' id='mce-EMAIL' placeholder='Email address'>
+          </fieldset>
+          <div class='col4'>
+            <input type='submit' value='Sign up' name='subscribe' id='mc-embedded-subscribe' class='button fill-orange4 big col12 round-right'>
+          </div>
+          <input style='display:none' type='text' name='b_1b29ad842d113cece02035883_ee3f92eb24'>
+          <div class='response hidden' id='mce-error-response'></div>
+          <div class='response hidden' id='mce-success-response'></div>
+        </form>
+      </div>
+    </figure>
+
+    <figure class='col6'>
+      <figure class='col12 slideshow'>
+        <div class='slide slide-audience3 contain'>
+          <div class='pin-top pin-bottom z1 col12 fill-brown5 overlay'>
+            <div class='z1 color-grey1 show-mobile caption dark small pad1y pad2x'>
+              Attend two days of sessions on the future of open mapping
+            </div>
+          </div>
+        </div>
+        <div class='slide slide-audience1 contain'>
+          <div class='pin-top pin-bottom z1 col12 fill-brown4 overlay'>
+            <div class='z1 color-grey1 show-mobile caption dark small pad1y pad2x'>
+              Discover innovative mapping techniques
+            </div>
+          </div>
+        </div>
+        <div class='slide slide-disaster contain'>
+          <div class='pin-top pin-bottom z1 col12 fill-brown3 overlay'>
+            <div class='z1 color-grey1 show-mobile caption dark small pad1y pad2x'>
+              Discuss improving the map in the United States and Beyond
+            </div>
+          </div>
+        </div>
+        <div class='slide slide-workshops contain'>
+          <div class='pin-top pin-bottom z1 col12 fill-brown4 overlay'>
+            <div class='z1 color-grey1 show-mobile caption dark small pad1y pad2x'>
+              Get started mapping in interactive workshops
+            </div>
+          </div>
+        </div>
+        <div class='slide slide-audience2 contain'>
+          <div class='pin-top pin-bottom z1 col12 fill-brown5 overlay'>
+            <div class='z1 color-grey1 show-mobile caption dark small pad1y pad2x'>
+              Share your experience with OpenStreetMap
+            </div>
+          </div>
+        </div>
+      </figure>
+      <figure class='col8 margin4r'>
+        <div class='fill-blue3 color-blue1 block dark pad2'>
+          <p class='prose'>Whether you're a map enthusiast, use OpenStreetMap in your business or organization, or just curious to learn more about the free and editable map of the world, <span class='dark'>this is your event</span>.</p>
+        </div>
+      </figure>
+    </figure>
+
+    <figure class='fl'>
+      <a href='https://twitter.com/sotmus/' target='_blank' class='fill-blue1 pad2 block block-twitter'>
+        <span class='sprite icon twitter'></span>
+      </a>
+    </figure>
+  </figure>
+
+</nav>
+
+<script src='site.js'></script>
+</body>
+</html>
