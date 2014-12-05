@@ -6,7 +6,7 @@
         url('fonts/spartan.woff') format('woff');
   }
 body {
-  font:18px/30px spartan;
+  font:18px/32px spartan;
   }
 h3 {
   font-size:34px;
@@ -254,7 +254,7 @@ input[type='submit'].fill-orange4:hover { background-color:#ad472c; }
     z-index:1;
     border-left:0 solid transparent;
     border-right:40px solid transparent;
-    border-top:30px solid rgba(0,0,0,0.75);
+    border-top:30px solid rgba(0,0,0,0.65);
     }
 
 .caption {
@@ -283,7 +283,7 @@ input[type='submit'].fill-orange4:hover { background-color:#ad472c; }
   }
 p.prose {
   font-size:18px;
-  line-height:30px;
+  line-height:32px;
   }
 
 /* Date */
@@ -373,7 +373,7 @@ p.prose {
       padding:20px;
       top:0;
       left:100%;
-      width:200px;
+      width:160px;
       margin-left:25px;
       }
     .block-twitter:before {
