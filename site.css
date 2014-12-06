@@ -215,20 +215,21 @@ input[type='submit'].fill-orange4:hover { background-color:#ad472c; }
      -moz-animation: pulse 2s linear 0 infinite;
           animation: pulse 2s linear 0 infinite;
   }
+
   @-webkit-keyframes pulse {
-    0%   { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.25), rgba(201, 219, 64,1) 0 0 0 0; }
-    50%  { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.10), rgba(201, 219, 64,0) 0 0 0 10px; }
-    100% { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.25); }
+    0%   { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.30), rgba(108, 142, 55,1) 0 0 0 0; }
+    50%  { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.10), rgba(108, 142, 55,0) 0 0 0 15px; }
+    100% { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.30); }
     }
   @-moz-keyframes pulse {
-    0%   { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.25), rgba(201, 219, 64,1) 0 0 0 0; }
-    50%  { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.10), rgba(201, 219, 64,0) 0 0 0 10px; }
-    100% { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.25); }
+    0%   { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.30), rgba(108, 142, 55,1) 0 0 0 0; }
+    50%  { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.10), rgba(108, 142, 55,0) 0 0 0 15px; }
+    100% { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.30); }
     }
   keyframes pulse {
-    0%   { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.25), rgba(201, 219, 64,1) 0 0 0 0; }
-    50%  { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.10), rgba(201, 219, 64,0) 0 0 0 10px; }
-    100% { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.25); }
+    0%   { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.30), rgba(108, 142, 55,1) 0 0 0 0; }
+    50%  { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.10), rgba(108, 142, 55,0) 0 0 0 15px; }
+    100% { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.30); }
     }
 
 .overlay {
