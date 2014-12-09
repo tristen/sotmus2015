@@ -255,7 +255,7 @@ input[type='submit'].fill-orange4:hover { background-color:#ad472c; }
     z-index:1;
     border-left:0 solid transparent;
     border-right:40px solid transparent;
-    border-top:30px solid rgba(0,0,0,0.65);
+    border-top:30px solid rgba(0,0,0,0.75);
     }
 
 .caption {
@@ -372,7 +372,7 @@ p.prose {
       background:rgba(0,0,0,0.5);
       color:#fff;
       padding:20px;
-      top:-20px;
+      top:0;
       left:100%;
       width:160px;
       margin-left:25px;
@@ -381,7 +381,7 @@ p.prose {
       content:'';
       position:absolute;
       left:100%;
-      top:0;
+      top:20px;
       width:0;
       height:0;
       margin-left:5px;
