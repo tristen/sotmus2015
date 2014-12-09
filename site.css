@@ -248,7 +248,7 @@ input[type='submit'].fill-orange4:hover { background-color:#ad472c; }
   .tooltip:before {
     content:'';
     bottom:-30px;
-    right:20px;
+    right:40px;
     position:absolute;
     width:0;
     height:0;
@@ -372,7 +372,7 @@ p.prose {
       background:rgba(0,0,0,0.5);
       color:#fff;
       padding:20px;
-      top:0;
+      top:20px;
       left:100%;
       width:160px;
       margin-left:25px;
