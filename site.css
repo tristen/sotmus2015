@@ -327,6 +327,8 @@ p.prose {
   .slide-danetalk   { background-image:url('img/backgrounds/dane-talk.jpg'); }
   .slide-talk       { background-image:url('img/backgrounds/talk.jpg'); }
   .slide-workshops  { background-image:url('img/backgrounds/workshops.jpg'); }
+  .slide-workshop   { background-image:url('img/backgrounds/workshop.jpg'); }
+  .slide-explore    { background-image:url('img/backgrounds/exploring-maps.jpg'); }
   .slide-disaster   { background-image:url('img/backgrounds/disaster.jpg'); }
   .slide-drone      { background-image:url('img/backgrounds/drone.jpg'); }
 
@@ -352,8 +354,8 @@ p.prose {
   display:inline-block;
   vertical-align:middle;
   text-indent:-999em;
-  width:40px;
-  height:40px;
+  width:44px;
+  height:44px;
   }
   .icon.twitter { background-position:0 0; }
   .slick-next   { background-position:-40px 0; }
@@ -400,10 +402,10 @@ p.prose {
   display:block;
   -webkit-touch-callout:none;
   -webkit-user-select:none;
-  -khtml-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none;
+   -khtml-user-select:none;
+     -moz-user-select:none;
+      -ms-user-select:none;
+          user-select:none;
   -ms-touch-action:pan-y;
   touch-action:pan-y;
   }
@@ -419,10 +421,10 @@ p.prose {
   }
 .slick-slider .slick-track {
   -webkit-transform:translate3d(0,0,0);
-  -moz-transform:translate3d(0,0,0);
-  -ms-transform:translate3d(0,0,0);
-  -o-transform:translate3d(0,0,0);
-  transform:translate3d(0,0,0);
+     -moz-transform:translate3d(0,0,0);
+      -ms-transform:translate3d(0,0,0);
+       -o-transform:translate3d(0,0,0);
+          transform:translate3d(0,0,0);
   }
 .slick-track {
   position:relative;
@@ -431,7 +433,7 @@ p.prose {
   display:block;
   }
 .slick-track:before,.slick-track:after {
-  content:"";
+  content:'';
   display:table;
   }
 .slick-track:after {
@@ -457,25 +459,24 @@ p.prose {
 .slick-prev,
 .slick-next {
   background-color:transparent;
+  border:2px solid #fff;
+  border-radius:50px;
   position:absolute;
   display:block;
   text-indent:-999em;
   cursor:pointer;
   top:50%;
-  border:none;
   outline:none;
   margin:0;
   padding:0;
   margin-top:-20px;
-  opacity:0.5;
+  opacity:0.75;
   }
   .slick-prev { left:10px; }
   .slick-next { right:10px; }
 
 .slick-prev:hover,
-.slick-prev:focus,
-.slick-next:hover,
-.slick-next:focus {
+.slick-next:hover {
   outline:none;
   background-color:transparent;
   opacity:1;
