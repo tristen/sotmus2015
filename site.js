@@ -22,8 +22,8 @@ var geojson = {
   'geometry': {
     'type': 'Point',
     'coordinates': [
-      -73.96772861480713,
-      40.74895165543915
+      -73.96769106388092,
+      40.7502195986618
     ]
   }
 };
@@ -33,8 +33,8 @@ locations.setGeoJSON(geojson);
 locations.eachLayer(function(l) {
   var props = l.feature.properties;
   var m = L.divIcon({
-    className: 'marker fill-green2',
-    iconSize: [60,60],
+    className: 'marker',
+    iconSize: [100,125],
     popupAnchor: [0, -20],
   });
 

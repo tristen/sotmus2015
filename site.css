@@ -201,32 +201,69 @@ input[type='submit'].fill-orange4:hover { background-color:#ad472c; }
   visibility:show;
   }
 .marker {
-  border-radius:50%;
-  width:60px;
-  height:60px;
-  font-weight:bold;
-  font-size:10px;
-  line-height:20px;
-  color:#fff;
-  -webkit-animation: pulse 2s linear 0 infinite;
-     -moz-animation: pulse 2s linear 0 infinite;
-          animation: pulse 2s linear 0 infinite;
+  background-image:url('img/marker@2x.png');
+  background-size:100px 100px;
+  background-repeat:no-repeat;
+  width:100px;
+  height:100px;
+  position:relative;
+  z-index:1;
+  -webkit-animation: float 5s linear 0 infinite;
+     -moz-animation: float 5s linear 0 infinite;
+          animation: float 5s linear 0 infinite;
   }
+  .marker:after {
+    background:rgba(55,55,55,0.25);
+    content:'';
+    display:block;
+    width:40px;
+    height:20px;
+    border-radius:50%;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    margin-left:-20px;
+    z-index:-1;
+    -webkit-animation: pulse 5s linear 0 infinite;
+       -moz-animation: pulse 5s linear 0 infinite;
+            animation: pulse 5s linear 0 infinite;
+    }
+  @-webkit-keyframes float {
+    0%   {  top:0; left:0; }
+    25%  {  left:-2px; }
+    50%  {  top:-10px; left:0; }
+    75%  {  left:2px; }
+    100% {  top:0; left:0; }
+    }
+  @-moz-keyframes float {
+    0%   {  top:0; left:0; }
+    25%  {  left:-2px; }
+    50%  {  top:-10px; left:0; }
+    75%  {  left:2px; }
+    100% {  top:0; left:0; }
+    }
+  keyframes float {
+    0%   {  top:0; left:0; }
+    25%  {  left:-2px; }
+    50%  {  top:-10px; left:0; }
+    75%  {  left:2px; }
+    100% {  top:0; left:0; }
+    }
 
   @-webkit-keyframes pulse {
-    0%   { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.30), rgba(108, 142, 55,1) 0 0 0 0; }
-    50%  { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.10), rgba(108, 142, 55,0) 0 0 0 15px; }
-    100% { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.30); }
+    0%   { width:40px; height:20px; margin-left:-20px; }
+    50%  { width:20px; height:10px; margin-left:-10px; }
+    100% { width:40px; height:20px; margin-left:-20px; }
     }
   @-moz-keyframes pulse {
-    0%   { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.30), rgba(108, 142, 55,1) 0 0 0 0; }
-    50%  { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.10), rgba(108, 142, 55,0) 0 0 0 15px; }
-    100% { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.30); }
+    0%   { width:40px; height:20px; margin-left:-20px; }
+    50%  { width:20px; height:10px; margin-left:-10px; }
+    100% { width:40px; height:20px; margin-left:-20px; }
     }
   keyframes pulse {
-    0%   { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.30), rgba(108, 142, 55,1) 0 0 0 0; }
-    50%  { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.10), rgba(108, 142, 55,0) 0 0 0 15px; }
-    100% { box-shadow:inset 0 0 0 10px rgba(0,0,0,0.30); }
+    0%   { width:40px; height:20px; margin-left:-20px; }
+    50%  { width:20px; height:10px; margin-left:-10px; }
+    100% { width:40px; height:20px; margin-left:-20px; }
     }
 
 .overlay {
@@ -307,7 +344,7 @@ p.prose {
   background-size:cover;
   background-repeat:no-repeat;
   }
-  .bg-logo      { 
+  .bg-logo      {
     background-image:url('img/backgrounds/logo.png');
     background-size:267px 215px;
     }
@@ -318,7 +355,7 @@ p.prose {
   background-size:cover;
   background-position:bottom;
   width:100%;
-  height:300px
+  height:320px
   }
   .slide-audience1  { background-image:url('img/backgrounds/audience-1.jpg'); }
   .slide-audience2  { background-image:url('img/backgrounds/audience-2.jpg'); }
@@ -459,7 +496,7 @@ p.prose {
 .slick-prev,
 .slick-next {
   background-color:transparent;
-  border:2px solid #fff;
+  /*border:2px solid rgba(255,255,255,1);*/
   border-radius:50px;
   position:absolute;
   display:block;

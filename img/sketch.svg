@@ -15,7 +15,10 @@
    id="svg6179"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="sketch.svg">
+   sodipodi:docname="sketch.svg"
+   inkscape:export-filename="marker@2x.png"
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -23,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4"
-     inkscape:cx="-788.35788"
-     inkscape:cy="1170.0761"
+     inkscape:zoom="1"
+     inkscape:cx="-683.10661"
+     inkscape:cy="923.41704"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -219,6 +222,16 @@
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
+    <rect
+       style="color:#000000;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect10318"
+       width="100"
+       height="100"
+       x="-725"
+       y="41.362179"
+       inkscape:export-filename="marker@2x.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
     <path
        sodipodi:nodetypes="ccsccccccsccsscccccccscccscccs"
        style="color:#000000;fill:#2b5729;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -7969,8 +7982,9 @@ AUUUUAFFFFABRRRQAUUUUAFFFFAH/9k=
        inkscape:export-filename="./backgrounds/logo.png"
        inkscape:connector-curvature="0"
        style="color:#000000;fill:#571545;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m -1260.875,-563.63783 c -6.2458,0 -11.4142,4.57727 -12.3438,10.5625 -1.644,-2.15928 -4.2329,-3.5625 -7.1562,-3.5625 -4.9706,0 -9,4.02944 -9,9 0,0.34366 0.025,0.66636 0.062,1 l 52.7813,0 c 0.1,-0.48823 0.1562,-0.98223 0.1562,-1.5 0,-4.14214 -3.3579,-7.5 -7.5,-7.5 -1.8283,0 -3.5111,0.66292 -4.8125,1.75 -1.2508,-5.58333 -6.2268,-9.75 -12.1875,-9.75 z"
-       id="path9076" />
+       d="m -1260.875,-563.63783 c -6.2458,0 -11.4142,4.57727 -12.3438,10.5625 -1.644,-2.15928 -4.7812,-3.56249 -6.7812,-3.56249 -6,0 -9,9 -9,9 l 0,3 57,0 0,-2 -26,-2 c 0,0 21.6245,1.01776 21.6245,0.49999 0,-4.14214 -3.3579,-7.5 -7.5,-7.5 -1.8283,0 -3.5111,0.66292 -4.8125,1.75 -1.2508,-5.58333 -6.2268,-9.75 -12.1875,-9.75 z"
+       id="path9076"
+       sodipodi:nodetypes="ccscccccssccc" />
     <path
        inkscape:export-ydpi="180"
        inkscape:export-xdpi="180"
@@ -8980,5 +8994,146 @@ AUUUUAFFFFABRRRQAUUUUAFFFFAH/9k=
        inkscape:export-filename="./backgrounds/location.png"
        inkscape:export-xdpi="180"
        inkscape:export-ydpi="180" />
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="marker@2x.png"
+       sodipodi:nodetypes="scsss"
+       inkscape:connector-curvature="0"
+       id="path10302"
+       d="m -645,72.362203 c -2e-5,16.568529 -30,51.999987 -30,51.999987 0,0 -29.99998,-35.431458 -30,-51.999987 2e-5,-16.568509 13.43145,-30 30,-29.99998 16.56853,2e-5 29.99998,13.431471 30,29.99998 z"
+       style="opacity:0.5;color:#000000;fill:#40813d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="marker@2x.png"
+       sodipodi:nodetypes="scsss"
+       inkscape:connector-curvature="0"
+       id="path10304"
+       d="M -649.00004,72.362203 C -649.00002,86.721614 -675,118.36217 -675,118.36217 c 0,0 -25.99998,-31.640536 -25.99998,-45.999947 0,-14.35941 11.64055,-26.000002 25.99998,-26.000002 14.35937,0 25.99998,11.640592 25.99996,25.999982 z"
+       style="color:#000000;fill:#92bc50;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="marker@2x.png"
+       sodipodi:nodetypes="scsss"
+       inkscape:connector-curvature="0"
+       id="path10306"
+       d="m -661.00005,64.362229 c 4e-5,9.941093 -13.99997,49.999951 -13.99997,49.999951 0,0 -13.99999,-40.058858 -13.99999,-49.999951 -2e-5,-9.941134 6.26802,-18.000008 13.99999,-17.999988 7.73197,0 13.99999,8.058854 13.99997,17.999988 z"
+       style="color:#000000;fill:#92bc50;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="marker@2x.png"
+       inkscape:connector-curvature="0"
+       id="path10308"
+       d="m -675,46.362221 c -14.35943,0 -25.99998,11.640592 -25.99998,26.000002 0,14.359411 25.99998,45.999947 25.99998,45.999947 l 0,-71.999949 z"
+       style="color:#000000;fill:#699e46;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="marker@2x.png"
+       sodipodi:nodetypes="scsss"
+       inkscape:connector-curvature="0"
+       id="path10310"
+       d="m -657.00003,64.362209 c 0,12.150291 -17.99999,53.999981 -17.99999,53.999981 0,0 -17.99999,-41.84969 -18.00001,-53.999981 2e-5,-12.150252 8.05888,-17.999946 18.00001,-17.999986 9.94111,2e-5 17.99999,5.849734 17.99999,17.999986 z"
+       style="color:#000000;fill:#40813d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#40813d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.05673647;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       d="m -675.21875,46.3125 c -0.99961,0.106827 -1.83501,1.057445 -1.8125,2.0625 l 0,62 c 0,1.06356 0.96769,2.03125 2.03125,2.03125 1.06356,0 2.03125,-0.96769 2.03125,-2.03125 l 0,-62 c 0.0262,-1.151363 -1.10525,-2.188507 -2.25,-2.0625 z"
+       id="path10312"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="marker@2x.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"
+       sodipodi:nodetypes="ccssscc" />
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="marker@2x.png"
+       inkscape:connector-curvature="0"
+       id="path10314"
+       d="m -673,49.549721 -2e-5,58.937459 c 3.80614,-11.290133 12.00001,-36.452397 12.00003,-44.124971 C -661.00001,55.296315 -666,50.36218 -673,49.549721 z"
+       style="color:#000000;fill:#699e46;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:nodetypes="ccsc" />
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="marker@2x.png"
+       style="color:#000000;fill:#92bc50;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m -677,49.549721 0,58.937459 c -3.80612,-11.290113 -11.99999,-36.452377 -11.99999,-44.124971 0,-9.065894 5.99999,-14.000029 11.99999,-14.812488 z"
+       id="path10316"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsc" />
+    <rect
+       transform="scale(1,-1)"
+       ry="0.18413934"
+       rx="0.051211908"
+       y="-36.946136"
+       x="-829.23523"
+       height="40"
+       width="40"
+       id="rect10333"
+       style="fill:#ccd740;fill-opacity:1;stroke:none" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#92bc50;fill-opacity:1;stroke:none"
+       id="rect10335"
+       width="40"
+       height="40"
+       x="-829.23523"
+       y="-76.946136"
+       rx="0.051211908"
+       ry="0.18413934" />
+    <rect
+       transform="scale(1,-1)"
+       ry="0.18413934"
+       rx="0.051211908"
+       y="-116.94612"
+       x="-829.23523"
+       height="40"
+       width="40"
+       id="rect10337"
+       style="fill:#40813d;fill-opacity:1;stroke:none" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#0c4a23;fill-opacity:1;stroke:none"
+       id="rect10339"
+       width="40"
+       height="40"
+       x="-829.23523"
+       y="-156.94614"
+       rx="0.051211908"
+       ry="0.18413934" />
+    <rect
+       transform="scale(1,-1)"
+       ry="0.18413934"
+       rx="0.051211908"
+       y="-196.94614"
+       x="-829.23523"
+       height="40"
+       width="40"
+       id="rect10341"
+       style="fill:#12381f;fill-opacity:1;stroke:none" />
+    <rect
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="marker@2x.png"
+       y="124.3622"
+       x="-684"
+       height="16.999975"
+       width="17.999989"
+       id="rect10296"
+       style="opacity:0.5;color:#000000;fill:#40813d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="marker@2x.png"
+       style="color:#000000;fill:#92bc50;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect10298"
+       width="9.9999952"
+       height="8.9999943"
+       x="-680"
+       y="128.36218" />
   </g>
 </svg>
