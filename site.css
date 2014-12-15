@@ -15,7 +15,7 @@ h3 {
 .fixed.fixed {
   position:fixed;
   }
-
+.z1 { z-index:1; }
 .limiter {
   width:83.3333%;
   max-width:720px;
@@ -160,20 +160,17 @@ input[type='submit'].fill-orange4:hover { background-color:#ad472c; }
 
 /* Splash logo
 ---------------------------------------------- */
-.block-logo {
-  min-width:250px;
+.bg-logo {
+  text-indent:-999em;
+  display:inline-block;
+  min-width:267px;
+  min-height:215px;
   }
-.block-logo > div {
-  /*border:5px solid #e71d8b;*/
-  height:210px;
-  }
-  .block-logo h3     { margin:40px 0 0; }
-  .block-logo .label { margin:10px 0 15px; }
-
 .block-date {
   box-shadow:8px 8px 0 #ad472c;
   width:140px;
-  left:0;
+  left:-10px;
+  bottom:-5px;
   z-index:1;
   }
 
@@ -236,8 +233,11 @@ input[type='submit'].fill-orange4:hover { background-color:#ad472c; }
   background-image:radial-gradient(ellipse closest-side,rgba(0,0,0,0), rgba(0,0,0,0.25));
   }
 
+.tooltip-container {
+  bottom:-20px;
+  }
 .tooltip {
-  background-color:rgba(0,0,0,0.5);
+  background-color:rgba(0,0,0,1);
   width:200px;
   -webkit-transition:all 200ms;
      -moz-transition:all 200ms;
@@ -255,7 +255,7 @@ input[type='submit'].fill-orange4:hover { background-color:#ad472c; }
     z-index:1;
     border-left:0 solid transparent;
     border-right:40px solid transparent;
-    border-top:30px solid rgba(0,0,0,0.75);
+    border-top:30px solid rgb(0,0,0);
     }
 
 .caption {
@@ -307,7 +307,10 @@ p.prose {
   background-size:cover;
   background-repeat:no-repeat;
   }
-  .bg-mapgrid   { background-image:url('img/backgrounds/mapgrid.png'); }
+  .bg-logo      { 
+    background-image:url('img/backgrounds/logo.png');
+    background-size:267px 215px;
+    }
   .bg-location  { background-image:url('img/backgrounds/location.png'); }
 
 .slideshow .slide {
@@ -330,7 +333,7 @@ p.prose {
 /* Location */
 .bg-location {
   min-height:320px;
-  background-position:bottom;
+  background-position:bottom left;
   background-size:contain;
   }
 
@@ -369,7 +372,7 @@ p.prose {
     .block-twitter:after {
       content:'Follow @sotmus on Twitter';
       position:absolute;
-      background:rgba(0,0,0,0.5);
+      background:rgb(0,0,0);
       color:#fff;
       padding:20px;
       top:0;
@@ -387,7 +390,7 @@ p.prose {
       margin-left:5px;
       border-top:0 solid transparent;
       border-bottom:30px solid transparent;
-      border-right:20px solid rgba(0,0,0,0.5);
+      border-right:20px solid rgb(0,0,0);
       }
 
 /* Slideshow
