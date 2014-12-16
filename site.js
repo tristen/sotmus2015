@@ -33,8 +33,8 @@ locations.setGeoJSON(geojson);
 locations.eachLayer(function(l) {
   var props = l.feature.properties;
   var m = L.divIcon({
-    className: 'marker',
-    iconSize: [100,125],
+    className: 'marker fill-green2',
+    iconSize: [60,60],
     popupAnchor: [0, -20],
   });
 
